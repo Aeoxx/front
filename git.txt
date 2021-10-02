@@ -1,0 +1,8 @@
+
+git add * //ініціалізувати файли
+git commit -m "повідомлення"
+git push
+
+git clone репозиторій
+
+git pull   //для оновлення

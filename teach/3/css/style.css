@@ -1,0 +1,13 @@
+h2{
+  color: blue;
+  font-style: italic;
+}
+.text{
+  color: red;
+}
+body{
+  background-color: orange;
+}
+.bold{
+  font-weight: bold;
+}
