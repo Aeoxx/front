@@ -1,0 +1,46 @@
+a{
+  text-decoration: none;
+  color: orange;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: red;
+  text-decoration: overline;
+}
+
+p:first-child{
+  background-color: gray;
+  color: white;
+}
+
+li:first-child{
+    background-color: gray;
+}
+
+input:focus{
+  background-color: lightgreen;
+}
+input:active{
+  background-color: red;
+}
+tr:nth-child(2n+1){
+  background-color: green;
+}
+tr:nth-child(2n) td:nth-child(2n+1):hover{
+  background-color: blue;
+}
+tr:nth-child(2n+1):hover td:nth-child(2n+1){
+  background-color: red;
+}
+tr:nth-child(2n+1):hover td:nth-child(2n):hover{
+  background-color: orange;
+}
+
+textarea:focus{
+  background-color: black;
+  color: #00BF00;
+}

@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,
+nav,
+main,
+footer{
+  background-color: orange;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.width{
+  margin: 0 auto;
+  width: 700px;
+}
+nav,
+main{
+  min-height: 100px;
+}
+nav{
+  float: left;
+  width: 28%;
+  height: 100%;
+}
+main{
+  float: right;
+  width: 70%;
+}
+footer{
+  float: right;
+}
+header{
+  text-align: center;
+}

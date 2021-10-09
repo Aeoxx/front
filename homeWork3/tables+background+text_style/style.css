@@ -1,5 +1,5 @@
 body {
-	background-color: burlywood;
+	background-color: orange;
 }
 
 h2 {
@@ -10,4 +10,7 @@ h2 {
 h3 {
 	color: red;
 	font-style: italic;
+}
+p{
+	color: green;
 }
